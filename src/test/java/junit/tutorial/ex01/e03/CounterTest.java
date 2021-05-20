@@ -34,7 +34,6 @@ class CounterTest {
 	@Test
 	void test2() {
 		Counter counter = new Counter();
-		counter.increment();
 		assertEquals(2,counter.increment(),"エラー！");
 	}
 	@Test
